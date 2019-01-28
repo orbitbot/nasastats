@@ -8,7 +8,7 @@ const fs          = require('fs-extra')
 const path        = require('path')
 
 const tmpFolder = '_build'
-const target    = 'build'
+const target    = 'docs'
 
 fs.removeSync(tmpFolder)
 fs.ensureDirSync(tmpFolder)
